@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CollegeUp</string>
+    <string name="onb1">Welcome To College Connect official app of UDMS. We happy to see you in our app. let\'s get more information about us.</string>
+    <string name="onb2">In - depth Course Analysis about the progress and project you strengths and area of improvements through effect analytics.</string>
+    <string name="onb3">We have most experienced instructors who are experts in their field of work.Practical session makes you Industry-Ready Expert !</string>
+    <string name="headinone">Welcome To our App !</string>
+    <string name="udmsmail">Email  udms@gmail.com</string>
+    <string name="headingtwo">In - depth Course Analysis</string>
+    <string name="headinfour">World Class Faculty</string>
+    <string name="udmscontact">Contact : 9529667349</string>
+    <string name="udmswebsite">www.udmsofficial.com</string>
+    <string name="open">Open drawer</string>
+    <string name="close">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="udms">University Department of Management Science</string>
+    <string name="udmsfull">Department of Management Science was established in the year 1972.A pioneer in the field of Management Education in the region. It has the distinction of producing world class Managers and entrepreneurs holding important positions in Businesses and Industry. Department of Management Science has the rich tradition of providing placements and entrepreneurial opportunities, conducting, workshops, Guest lectures, Industrial visits, Internships, projects, conferences and seminars. The Department of Management Science has always remained in the forefront in initiating students welfare activities, enhancing the employment and employability skills of students.
+Keeping in view the dynamic nature of Management education, The conceptual up gradation and timely Introduction of skill-based curriculum is an important feature of courses offered at Department of Management Science
+The conventions of management are changing in the era of 21st Century. The developments in the field of Information Technology have brought a paradigm shift. The competition is forcing organizations to be in tune with the latest trends. The present day world is witnessing revolutionary changes in view of the advancements that are taking place in the field of Artificial Intelligence and Automation. The real challenge is to equip the manpower with the know-how, skills, and competencies compatible with the ever evolving trends in Management and Technology. The economies across the world will compete not only on the basis of the size of their population and GDP Growth but the quality of their human resources. Department of Management Science is on the glorious threshold of completing 50 years of commitment towards imparting need based management education. The philosophy of management in the present scenario will be to develop Managers ready to take on the challenges and opportunities posed by the Global environment at large. </string>
+    <string name="udmsinfo">Department of Management Science was established in the year 1972.A pioneer in the field of Management Education in the region. It has the distinction of producing world class Managers and entrepreneurs holding important positions in Businesses and Industry. Department of Management Science has the rich tradition of providing placements and entrepreneurial opportunities, conducting, workshops, Guest lectures, Industrial visits, Internships, projects, conferences and seminars. The Department of Management Science has always remained in the forefront in initiating students welfare activities, enhancing the employment and employability skills of students. </string>
+    <string name="title_activity_fullscreen_image">FullscreenImage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

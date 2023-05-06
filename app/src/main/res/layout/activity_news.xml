@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00373A39"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1.Research and Development Cell Department of Management Science Dr.Babasaheb Ambedkar Marathwada University had organized an Orientation Lecture on Full bright Scholarship on 20th April at 11 am. Dr Bhaskar Sathe ,Associate Professor Department of Chemistry ,Dr.Babasaheb Ambedkar Marathwada University while offering valuable guidance to PhD Scholars of Management Science "
+                android:textAlignment="inherit"
+                android:textColor="#EF0F0F"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/gallery1" />
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2.Felicitation Prgram held at Department of Management Science,Dr.Babasaheb Ambedkar Marathwada University.Professor Abhijeet Shelke while honoring and felicitating Dr.Kaveri Lad as she has reently been appointed as the Director ,Rajarshi Shahu Marahaj Study Centre.Dr Suyog Amrutrao, Director Department of Management Science Osmanabad Subcenter while felicitating and honoring Dr.Sonali Kshirsagar as she has recently taken over the charge of Director,NSS Dr.Babasaheb Ambedkar Marathwada University "
+                android:textAlignment="inherit"
+                android:textColor="#4CAF50"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/udmsnewsone" />
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="3. Urgent Attention ! There is Workshops on Digital Entrepreneurship\n Everyone showld attend ! Its Mandatory. "
+                    android:textAlignment="inherit"
+                    android:textColor="#E91E63"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="222dp"
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/udmsnewstwo" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.3rd International Conference on Intelligent Systems, Cognitive Science, and Knowledge Engineering (ICKE 2023) Call for papers,Submit your paper before 15 Feb 2023.\n
+                       please visit the website for more details"
+                android:textAlignment="inherit"
+                android:textColor="#9C27B0"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/udmsnewsthree" />
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.AVISHKAR-2023 from 3rd Jan 2023-4th Jan 2023 A Research Festival organized By University Department of Management Science (UDMS), Dr. Babasaheb Ambedkar Marathwada University, Aurangabad "
+                android:textAlignment="inherit"
+                android:textColor="#4CAF50"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/udmsfour" />
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Note:All News taken From UDMS Official LikedIn Account\n Developer are not present at that time"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/amarante"/>
+
+
+    </LinearLayout>
+</ScrollView>

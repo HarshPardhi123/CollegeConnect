@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+       <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:iss_auto_cycle="true"
+                app:iss_period="2000"
+                app:iss_delay="5000"
+                app:iss_text_align="CENTER"/>
+
+
+            <TextView
+                android:id="@+id/textroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="@string/udms"
+                android:textSize="20dp"
+                android:ellipsize="marquee"
+                android:textColor="@color/skyblue"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="10dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:scrollHorizontally="false"
+                android:ellipsize="marquee"
+                android:text="@string/udmsinfo"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:id="@+id/txtmarquee"
+                android:fontFamily="@font/amarante"
+                android:textSize="17dp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="@color/onboarding1"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:text=" Departments"/>
+
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <GridLayout
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="2"
+                android:layout_marginLeft="5dp"
+                android:columnCount="3"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:id="@+id/mcadept"
+                        android:layout_width="126dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mca"/>
+                </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="126dp"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:fontFamily="@font/acme"
+                        android:textAlignment="center"
+                        android:textSize="15dp"
+                        android:text="MCA Department"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="6dp">
+
+                <ImageView
+                    android:id="@+id/mbadept"
+                    android:layout_width="126dp"
+                    android:layout_height="120dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/sales" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="126dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:fontFamily="@font/acme"
+                    android:text="MBA Department"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="6dp">
+
+                        <ImageView
+                            android:id="@+id/bcdept"
+                            android:layout_width="126dp"
+                            android:layout_height="120dp"
+                            android:layout_row="0"
+                            android:layout_marginRight="-15dp"
+                            android:layout_column="1"
+                            android:src="@drawable/bca" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="126dp"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:fontFamily="@font/acme"
+                        android:text="Int. BCA-MCA "
+                        android:textAlignment="center"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </GridLayout>
+</HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:fontFamily="@font/acme"
+                android:padding="15dp"
+                android:paddingBottom="15dp"
+                android:text="UDMS  Tells"
+                android:textAlignment="center"
+                android:textColor="@color/onboarding1"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="25dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/tells_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="1000"
+                    app:iss_delay="4000"
+                    app:iss_text_align="CENTER"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textColor="@color/onboarding1"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                />
+
+            <TextView
+                android:id="@+id/calludms"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tel:- 0240-2403376"
+                android:textAlignment="inherit"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                />
+            <TextView
+                android:id="@+id/emailudms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :- head.mgmtsci@bamu.ac.in"
+                android:textAlignment="inherit"
+                android:textSize="20dp"
+                android:layout_marginLeft="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                />
+            <TextView
+                android:id="@+id/bamuweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/udmswebsite"
+                android:textAlignment="inherit"
+                android:textDirection="firstStrong"
+                android:layout_marginLeft="17dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Powered by UDMS | Dr.BAM University"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/amarante"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Copyright 2023-24 | Aurangabad"/>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

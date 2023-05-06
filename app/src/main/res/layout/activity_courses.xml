@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Courses">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses At UDMS"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:fitsSystemWindows="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/amarante"
+            android:background="#4CAF50"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+       <GridLayout
+           android:fitsSystemWindows="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:columnCount="2"
+           android:rowCount="3"
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+           <ImageView
+               android:id="@+id/bcacourse"
+               android:layout_width="222dp"
+               android:layout_height="222dp"
+               android:src="@drawable/mca"
+               android:contentDescription="Integrated BCA-MCA"
+               >
+
+           </ImageView>
+           <TextView
+               android:id="@+id/bca1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:textSize="25dp"
+               android:fontFamily="@font/amarante"
+               android:text="Int.BCA-MCA"></TextView>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="222dp"
+                   android:layout_height="222dp"
+                   android:src="@drawable/bca"
+                   android:contentDescription="Full Time MCA"
+                   >
+
+               </ImageView>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAlignment="center"
+                   android:textSize="25dp"
+                   android:fontFamily="@font/amarante"
+                   android:text="MCA"></TextView>
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="222dp"
+                   android:layout_height="222dp"
+                   android:src="@drawable/ong3"
+                   android:contentDescription="Integrated BCA-MCA"
+                   >
+
+               </ImageView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAlignment="center"
+                   android:textSize="25dp"
+                   android:fontFamily="@font/amarante"
+                   android:text="Part Time MBA"></TextView>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="222dp"
+                   android:layout_height="222dp"
+                   android:src="@drawable/sales"
+                   android:contentDescription="Integrated BCA-MCA"
+                   >
+
+               </ImageView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAlignment="center"
+                   android:textSize="25dp"
+                   android:fontFamily="@font/amarante"
+                   android:text="Full -Time MBA"></TextView>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"/>
+
+
+
+       </GridLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All the Course are based on \nUniversity Guidlines"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/amarante"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+
+    <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="220dp"
+           android:src="@drawable/on2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Register Yourself"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shapes_rect"
+                android:ellipsize="start"
+                android:focusable="true"
+                android:isScrollContainer="false"
+               android:hint="Enter Your Name"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:ignore="ExtraText" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                />
+
+            <EditText
+                android:id="@+id/useremail"
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shapes_rect"
+                android:focusable="true"
+                android:hapticFeedbackEnabled="true"
+                android:hint="Enter Your Email"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/usermobile"
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shapes_rect"
+                android:focusable="true"
+                android:numeric="signed"
+                android:hint="Enter Your Mobile number"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                />
+
+            <EditText
+                android:id="@+id/Course"
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shapes_rect"
+                android:layout_height="48dp"
+                android:focusable="true"
+                android:hint="Enter Your Course"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/city"
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shapes_rect"
+                android:layout_height="48dp"
+                android:focusable="true"
+                android:hint="Enter Your City"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_marginTop="25dp"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/dbstore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/shapes_rect_green"
+                android:backgroundTint="#4CAF50"
+             
+                android:text="Register"
+                android:textAlignment="center"
+                app:icon="@drawable/ic_baseline_app_registration_24"
+                app:strokeColor="#4CAF50" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout >

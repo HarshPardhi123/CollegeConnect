@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about_udms"
+        android:title="About UDMS"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        />
+    <item
+        android:id="@+id/Professors"
+        android:title="Faculties"
+        android:icon="@drawable/ic_baseline_people_24"
+        />
+    <item
+        android:id="@+id/Alumni"
+        android:title="Alumni"
+        android:icon="@drawable/ic_baseline_supervisor_account_24"
+        />
+    <item
+        android:id="@+id/courses"
+        android:title="Courses"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        />
+    <item
+        android:id="@+id/Help"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_help_outline_24"
+        />
+    <item
+        android:id="@+id/Developer"
+        android:title="Developer"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+    />
+    <item
+        android:id="@+id/News"
+        android:title="News"
+        android:icon="@drawable/ic_baseline_new_releases_24"
+        />
+    <item
+        android:id="@+id/result"
+        android:title="Results"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        />
+    <item
+        android:id="@+id/gallery"
+        android:title="gallery"
+        android:icon="@drawable/common_full_open_on_phone"
+        />
+
+
+</menu>
